@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Grid } from '@material-ui/core'
+
 import CaseCard from './CaseCard'
 
 import styles from './Cards.module.css'
