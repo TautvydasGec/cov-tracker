@@ -26,7 +26,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={confirmed.value}
-                duration={2.5}
+                duration={1}
                 separator=","
               />
             </Typography>
@@ -52,7 +52,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={recovered.value}
-                duration={2.5}
+                duration={1}
                 separator=","
               />
             </Typography>
@@ -78,7 +78,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               <CountUp
                 start={0}
                 end={deaths.value}
-                duration={2.5}
+                duration={1}
                 separator=","
               />
             </Typography>
@@ -86,7 +86,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant='body2'>
-              Number of adeathes caused by COVID-19
+              Number of deaths caused by COVID-19
             </Typography>
           </CardContent>
         </Grid>
